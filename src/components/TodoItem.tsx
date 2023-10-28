@@ -44,7 +44,7 @@ const TodoItem = (props: props) => {
   };
   return (
     <div
-      className={`w-50% bg-white flex flex-wrap gap-x-4 gap-y-4 rounded-lg items-center p-6 hover: ${
+      className={`w-50%  flex flex-wrap gap-x-4 gap-y-4 rounded-lg items-center p-6 ${
         todo.isDone ? "bg-green-400 line-through" : "bg-red-400"
       } transition duration-300`}
       key={todo.id}
